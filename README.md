@@ -31,7 +31,7 @@ An example of a gallery:
 var gallery = new Gallery({
     'container': document.getElementById('container'),
     'looping': true,
-    'api': 'https://example.com'
+    'api': 'http://example.com'
 });
 ```
 
