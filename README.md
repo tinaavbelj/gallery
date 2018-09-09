@@ -33,4 +33,6 @@ var gallery = new Gallery({
     'looping': true,
     'api': 'https://example.com'
 });
+```
+
 
