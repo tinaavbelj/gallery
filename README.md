@@ -24,7 +24,7 @@ Parameters:
   * looping: boolean; true - gallery looping enabled, false - gallery looping disabled
 
 ### Example
-```
+
 An example of a gallery:
 
 ```javascript
