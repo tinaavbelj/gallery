@@ -19,13 +19,11 @@ Every Gallery class instance needs to be provided with a ```div``` container obj
 Parameters:
 
 Gallery class accepts single parameter <a name="options">options</a> object with the following attributes:
-  * container: HTML element ```div``` which functions as a placeholder for the gallery,
-  * api: String (URL to the API providing images)
-  * looping: boolean
+  * container: HTML element ```div``` which functions as a placeholder for the gallery
+  * api: string (URL to the API providing images)
+  * looping: boolean (true: gallery looping enabled, false: gallery looping disabled)
 
 ### Example
-
-An example of a gallery:
 
 ```javascript
 new Gallery({
