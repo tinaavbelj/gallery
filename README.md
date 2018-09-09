@@ -3,7 +3,7 @@
 ## Installation
 To use the gallery put ```<script src="gallery.js"></script>``` and  ```<link rel="stylesheet" type="text/css" href="gallery.css">``` inside the ```<head>``` tag of your HTML file. The files are located in the ```src``` directory.
 
-Additionally you have to use a proxy srver for bypassing CORS by adding an appropriate header to the API response. To navigate to the directory ```src/proxy``` , then run ```node/proxy.js``` (requires Node.js installation).
+Additionally you have to use a proxy srver for bypassing CORS by adding an appropriate header to the API response. To navigate to the directory ```src/proxy``` , then run ```node proxy.js``` (requires Node.js installation).
 
 ### Demo
 A demo of the functionality is included in the project. To view the demo run ```demo/demo.html```.
