@@ -3,7 +3,7 @@
 ## Installation
 To use the gallery put ```<script src="gallery.js"></script>``` and  ```<link rel="stylesheet" type="text/css" href="gallery.css">``` inside the ```<head>``` tag of your HTML file. The files are located in the ```src``` directory.
 
-Additionally you have to use a proxy srver for bypassing CORS by adding an appropriate header to the API response. To navigate to the directory ```src/proxy``` , then run ```node proxy.js``` (requires Node.js installation).
+Additionally, you have to use a proxy server for bypassing CORS by adding an appropriate header to the API response. To use, navigate to the directory ```src/proxy```, then run ```node proxy.js``` (requires Node.js installation).
 
 ### Demo
 A demo of the functionality is included in the project. To view the demo run ```demo/demo.html```.
@@ -11,28 +11,27 @@ A demo of the functionality is included in the project. To view the demo run ```
 ## Usage
 You can use the gallery by creating a Gallery object.
 
-Every Gallery class instance needs to be provided with a div container object, which functions as a placeholder for the gallery:
+Every Gallery class instance needs to be provided with a ```div``` container object, which functions as a placeholder for the gallery:
 ```html
-<svg id="container"></svg>
+<div id="container"></div>
 ```
 
 Parameters:
 
-<a name="options">_options_</a> object may contain the following attributes:
-  * container: a div, which functions as a placeholder for the gallery,
-  * api: url to api for images,
-  * looping: boolean; true - gallery looping enabled, false - gallery looping disabled
+<a name="options">_options_</a> object with the following attributes:
+  * container: HTML element ```div``` which functions as a placeholder for the gallery,
+  * api: String (URL to the API providing images)
+  * looping: boolean
 
 ### Example
 
 An example of a gallery:
 
 ```javascript
-var gallery = new Gallery({
+new Gallery({
     'container': document.getElementById('container'),
     'looping': true,
     'api': 'http://example.com'
 });
 ```
-
 
