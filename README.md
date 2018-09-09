@@ -11,11 +11,6 @@ A demo of the functionality is included in the project. To view the demo run ```
 ## Usage
 You can use the gallery by creating a Gallery object.
 
-Every Gallery class instance needs to be provided with a ```div``` container object, which functions as a placeholder for the gallery:
-```html
-<div id="container"></div>
-```
-
 ### Parameters
 
 Gallery class accepts single parameter named *options* which is an object with the following attributes:
