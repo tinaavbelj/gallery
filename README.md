@@ -18,7 +18,7 @@ Every Gallery class instance needs to be provided with a ```div``` container obj
 
 Parameters:
 
-<a name="options">_options_</a> object with the following attributes:
+Gallery class accepts single parameter <a name="options">options</a> object with the following attributes:
   * container: HTML element ```div``` which functions as a placeholder for the gallery,
   * api: String (URL to the API providing images)
   * looping: boolean
